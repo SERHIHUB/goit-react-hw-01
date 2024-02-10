@@ -4,7 +4,6 @@ import clsx from "clsx";
 const line = true;
 
 export const FriendListItem = ({ avatar, name, isOnline }) => {
-  // const statusClass = clsx(css.status, true && css.offline);
   const text = isOnline ? "Online" : "Offline";
   return (
     <div>
